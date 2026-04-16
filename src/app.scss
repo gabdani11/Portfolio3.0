@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./assets/fonts/CabinetGrotesk-Variable.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MyFont', sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #1c1c1c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 200px;
+        
+    }
+    h1{
+        font-size: clamp(1.5rem, 2vw, 3rem);
+        text-align: center;
+    }
+
+
+
+}
